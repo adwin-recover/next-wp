@@ -20,7 +20,7 @@ export default function Home( {posts} ){
 
 export async function getStaticProps(){
 
-  const res = await fetch('http://localhost:8888/wordpress/graphql', {
+  const res = await fetch('http://wp.addw.in/wp/graphql', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
