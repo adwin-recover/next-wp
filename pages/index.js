@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Home( {posts} ){
   return(
     <div>
-      <h1>All pages</h1>
+      <h1>All pages:</h1>
       {
         posts.nodes.map(post => {
           return(
